@@ -1,0 +1,19 @@
+.absol-date-text-input {
+    height: 2rem;
+    font-size: 1rem;
+    min-width: 7rem;
+    border: solid 1px #d6d6d6;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.absol-date-text-input .absol-editabe-text:not(.editing){
+    cursor: pointer;
+}
+
+.absol-date-text-input .absol-editabe-text:hover{
+    color: red;
+}
